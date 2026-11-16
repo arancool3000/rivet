@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#26272b"/><stop offset="1" stop-color="#151518"/></linearGradient>
+    <linearGradient id="face" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#f4f1ea"/><stop offset="1" stop-color="#dcd7cc"/></linearGradient>
+  </defs>
+  <rect x="64" y="64" width="896" height="896" rx="200" fill="url(#bg)"/>
+  <!-- antenna -->
+  <rect x="496" y="190" width="32" height="110" rx="16" fill="#dcd7cc"/>
+  <circle cx="512" cy="182" r="40" fill="#ff5b1a"/>
+  <!-- ears -->
+  <rect x="196" y="452" width="64" height="168" rx="28" fill="#bdb7aa"/>
+  <rect x="764" y="452" width="64" height="168" rx="28" fill="#bdb7aa"/>
+  <!-- head -->
+  <rect x="236" y="290" width="552" height="480" rx="120" fill="url(#face)"/>
+  <!-- visor -->
+  <rect x="300" y="372" width="424" height="196" rx="98" fill="#1b1c20"/>
+  <!-- eyes -->
+  <circle cx="414" cy="470" r="46" fill="#ff5b1a"/>
+  <circle cx="610" cy="470" r="46" fill="#ff5b1a"/>
+  <circle cx="428" cy="454" r="13" fill="#fff" opacity=".85"/>
+  <circle cx="624" cy="454" r="13" fill="#fff" opacity=".85"/>
+  <!-- mouth grille -->
+  <rect x="412" y="628" width="26" height="70" rx="13" fill="#8e887c"/>
+  <rect x="463" y="628" width="26" height="70" rx="13" fill="#8e887c"/>
+  <rect x="514" y="628" width="26" height="70" rx="13" fill="#8e887c"/>
+  <rect x="565" y="628" width="26" height="70" rx="13" fill="#8e887c"/>
+  <!-- rivets -->
+  <circle cx="290" cy="340" r="14" fill="#bdb7aa"/><circle cx="734" cy="340" r="14" fill="#bdb7aa"/>
+  <circle cx="290" cy="720" r="14" fill="#bdb7aa"/><circle cx="734" cy="720" r="14" fill="#bdb7aa"/>
+</svg>

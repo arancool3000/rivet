@@ -1,0 +1,5 @@
+config.json
+chats/
+*.log
+*.out
+schedule.json

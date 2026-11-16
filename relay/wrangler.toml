@@ -1,0 +1,15 @@
+name = "rivet-relay"
+main = "worker.js"
+compatibility_date = "2025-09-01"
+workers_dev = true
+preview_urls = false
+
+# CONNECT_SECRET is set as a secret, never committed:  npx wrangler secret put CONNECT_SECRET
+
+[[durable_objects.bindings]]
+name = "RELAY"
+class_name = "Relay"
+
+[[migrations]]
+tag = "v1"
+new_sqlite_classes = ["Relay"]
